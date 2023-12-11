@@ -3,31 +3,36 @@ package ie.atu;
 import java.util.Scanner;
 
 public class Employee {
-    private string name;
-    private string id;
+    private String name;
+    private String id;
 
-    public Employee(){
+    public Employee() {
     }
 
-    public Employee(string name, string id)
-    {
+    public Employee(String name, String id) {
         this.name = name;
         this.id = id;
     }
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public string getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(string id) {
+    public void setId(String id) {
         this.id = id;
+    }
+
+    public String getReportdetails() {
+        System.out.println("Employee's name: " + name);
+        System.out.println("Employee's id: " + id);
+        return null;
     }
 }
