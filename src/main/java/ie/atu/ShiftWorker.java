@@ -1,11 +1,11 @@
 package ie.atu;
 
 public class ShiftWorker extends Employee {
-    private int Shift;
-    private int Payroll;
-    private double HourlyPay;
-    private String id;
-    private String name;
+    public int Shift;
+    public int Payroll;
+    public double HourlyPay;
+    public String id;
+    public String name;
 
     public ShiftWorker(){
     }

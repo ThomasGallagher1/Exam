@@ -3,8 +3,8 @@ package ie.atu;
 import java.util.Scanner;
 
 public class Employee {
-    private String name;
-    private String id;
+    public String name;
+    public String id;
 
     public Employee() {
     }

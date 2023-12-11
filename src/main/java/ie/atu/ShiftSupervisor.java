@@ -1,12 +1,12 @@
 package ie.atu;
 
 public class ShiftSupervisor extends ShiftWorker{
-    private int Shift;
-    private int Payroll;
-    private double HourlyPay;
-    private String id;
-    private String name;
-    private double AnnualSalary;
+    public int Shift;
+    public int Payroll;
+    public double HourlyPay;
+    public String id;
+    public String name;
+    public double AnnualSalary;
 
     public ShiftSupervisor()
     {}
@@ -29,7 +29,7 @@ public class ShiftSupervisor extends ShiftWorker{
         System.out.println("Employee's name:" + name);
         System.out.println("Employee's shift: " + Shift);
         System.out.println("Employee's payroll: " + Payroll);
-        System.out.println("Employee's Hourly Rate" + HourlyPay);
+        System.out.println("Employee's Annual Rate" + AnnualSalary);
         return null;
     }
 }
